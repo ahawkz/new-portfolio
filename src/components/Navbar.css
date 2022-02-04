@@ -1,0 +1,142 @@
+.navbar {
+  height: 92px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.2rem;
+  position: sticky;
+  margin-top: 10px;
+  z-index: 999;
+  font-family: 'Playfair Display', sans-serif;
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 92px;
+  width: 100%;
+}
+
+.navbar-logo {
+  color: var(--black);
+  background: var(--pink);
+  padding: 24px;
+  margin-left: 20px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+}
+
+.menu-icon {
+  margin: 1px 20px 0 0;
+  font-size: 1.8rem;
+  cursor: pointer;
+  z-index: 99;
+  color: var(--pink);
+  padding: 24px;
+}
+
+.fa-times {
+  color: var(--pink);
+  font-size: 2rem;
+}
+
+.nav-menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  height: 60vh;
+  position: absolute;
+  top: -1000px;
+  left: 0;
+  opacity: 1;
+  transition: all 0.5s ease;
+}
+
+.nav-menu.active {
+  background: var(--white);
+  left: 0;
+  top: 0;
+  opacity: 1;
+  transition: all 0.5s ease;
+  z-index: 1;
+  box-shadow: 0px 1px 10px 0px rgba(0,0,0,0.2);
+}
+
+.nav-item {
+  display: flex;
+  width: 300px;
+  height: 29px;
+  margin-top: 59px;
+  padding-bottom: 8px;
+  -webkit-box-align: end;
+  margin: 25px auto;
+}
+
+.nav-links:hover {
+  border-bottom: 4px solid var(--pink);
+  /* transition: all 0.5s ease; */
+}
+
+.nav-links {
+  text-align: center;
+  padding: 1rem;
+  width: 100%;
+  display: table;
+  text-decoration: none;
+  font-weight: 900;
+  font-size: 2rem;
+  color: var(--charcaol);
+}
+
+
+/* .nav-menu {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  grid-gap: 10px;
+  list-style: none;
+  text-align: center;
+  width: 100vw;
+  justify-content: end;
+  margin-right: 2rem;
+}
+
+.nav-item {
+  height: 80px;
+}
+
+.nav-links {
+  color: #000;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  height: 100%;
+}
+
+.nav-links:hover {
+  border-bottom: 4px solid #fff;
+  transition: all 0.2s ease-out;
+}
+
+.fa-bars {
+  color: #fff;
+}
+
+.nav-links-mobile {
+  display: none;
+}
+
+.menu-icon {
+  display: none;
+} */
+
+/* @media screen and (max-width: 960px) { */
+  /* .NavbarItems {
+    position: relative;
+  } */
+/* } */
