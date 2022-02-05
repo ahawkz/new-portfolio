@@ -1,0 +1,48 @@
+.content-container {
+  max-width: 800px;
+  margin: 100px auto;
+  display: flex;
+  justify-content: center;
+}
+
+.content-left {
+  width: 70%;
+  padding-right: 100px;
+}
+
+h2 {
+  margin: 10px 0 25px;
+}
+
+p {
+  margin: 25px 0;
+  letter-spacing: 0.5px;
+}
+
+.content-right {
+  width: 30%;
+}
+
+ul {
+  list-style: none;
+  margin-bottom: 50px;
+}
+
+li {
+  margin: 5px 0;
+  font-size: 0.9rem;
+}
+
+/* mobile designs */
+@media screen and (max-width: 960px) {
+  .content-container {
+    flex-direction: column;
+    width: 100%;
+    margin: 50px auto;
+  }
+
+  .content-right, .content-left {
+    width: 100%;
+    padding: 0 16px;
+  }
+}
