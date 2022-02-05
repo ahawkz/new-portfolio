@@ -8,11 +8,13 @@
 :root {
   --white: #fff;
   --black: #000;
-  --pink: #C17C74;
+  --pink: #CC9999;
   --almond: #DDC9B4;
   --charcoal: #2A3D45;
   --brown: #7A6C5D;
   --gray: #F4F6F6;
+  --yellow: #EEE67C;
+  --darkblue: #023F92;
 }
 
 /* .home {
