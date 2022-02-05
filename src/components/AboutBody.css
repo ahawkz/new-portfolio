@@ -35,7 +35,7 @@ li {
 
 /* mobile designs */
 @media screen and (max-width: 960px) {
-  .content-container {
+  .about-container {
     flex-direction: column;
     width: 100%;
     margin: 50px auto;
