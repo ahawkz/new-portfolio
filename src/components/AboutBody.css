@@ -1,4 +1,4 @@
-.content-container {
+.about-container {
   max-width: 800px;
   margin: 100px auto;
   display: flex;
@@ -27,7 +27,7 @@ ul {
   list-style: none;
   margin-bottom: 50px;
 }
- 
+
 li {
   margin: 5px 0;
   font-size: 0.9rem;

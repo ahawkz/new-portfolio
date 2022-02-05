@@ -7,9 +7,9 @@ function Footer() {
   return (
     <div className='footer-container'>
       <div className='links-container'>
-        <p class="overline">THE OTHER STUFF</p>
+        <p className="overline">THE OTHER STUFF</p>
         <div className='links'>
-          <a href="https://github.com/ahawkz" target="_blank">github</a> | <a href="https://www.linkedin.com/in/hawkinsalex/" target="_blank">LinkedIn</a> | <Link to="/contact">Contact</Link>
+          <a href="https://github.com/ahawkz" target="_blank" rel='noreferrer'>github</a> | <a href="https://www.linkedin.com/in/hawkinsalex/" target="_blank">LinkedIn</a> | <Link to="/contact">Contact</Link>
         </div>
       </div>
     </div>

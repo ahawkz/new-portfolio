@@ -74,12 +74,20 @@ button {
 
 /* mobile designs */
 @media screen and (max-width: 960px) {
+
+  .home-background{
+    padding: 0 16px;
+  }
   .hero-right {
     display: none;
   }
 
   .hero-left {
     width: 100%;
+  }
+
+  .hero-btns {
+    display: flex;
   }
 
   .color-bg {

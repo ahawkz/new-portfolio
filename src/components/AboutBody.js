@@ -1,12 +1,10 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import '../App.css';
-import { Button } from './Button';
 import './AboutBody.css'
 
 function AboutBody() {
   return (
-    <div className='content-container'>
+    <div className='about-container'>
       <div className='content-left'>
         <h1 className='overline' tabindex="0">LET ME INTRODUCE MYSELF</h1>
         <h2 tabindex="0">I'm Alex Hawkins, a Frontend Developer with 2+ years of experience building and maintaining user-friendly, accessible websites.</h2>

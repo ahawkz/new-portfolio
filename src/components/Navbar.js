@@ -52,8 +52,6 @@ function Navbar() {
               <Link to='/about' className='nav-links' onClick={closeMobileMenu}>About</Link>
             </li>
           </ul>
-          {/* {button && <Button buttonStyle='btn--outline'>Learn More</Button>} */}
-
         </div>
       </nav>
 
